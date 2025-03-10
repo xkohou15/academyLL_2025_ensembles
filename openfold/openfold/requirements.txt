@@ -1,0 +1,32 @@
+# Base dependencies
+python==3.9
+setuptools==59.5.0
+openmm==7.7
+pdbfixer
+pytorch-lightning
+biopython
+numpy
+pandas
+PyYAML==5.4.1
+requests
+scipy==1.7
+tqdm==4.62.2
+typing-extensions==4.0
+wandb
+modelcif==0.7
+awscli
+ml-collections
+aria2
+mkl==2024.0
+git
+hmmer==3.3.2
+hhsuite==3.3.0
+kalign2==2.04
+mmseqs2
+pytorch==1.12.*
+
+# Pip dependencies
+deepspeed==0.12.4
+dm-tree==0.1.6
+git+https://github.com/NVIDIA/dllogger.git
+git+https://github.com/Dao-AILab/flash-attention.git@5b838a8
